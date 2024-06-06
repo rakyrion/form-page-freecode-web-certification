@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title> Adrian Ruiz Herrera Crypto Study </title>
+  </head>
+  <body>
+    <h1 id="title"> Adrian Ruiz Herrera Crypto Study </h1>
+    <p id="description"> This is a test form about Crypto Study. Thanks for your time filling the form </p>
+    <form id="survey-form">
+        <fieldset> 
+         <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required />
+         </label>
+      </fieldset>
+      <fieldset> 
+         <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required/> 
+         </label>   
+      </fieldset>
+      <fieldset>
+         <label id="number-label"> Year of birth <i>(optional)</i> <input id="number" type="number" min="1900" max="2012" placeholder="Birth" /> 
+         </label>
+      </fieldset>
+      <fieldset>
+        <label> Have you ever invested on cryptos? </label>
+        <select id="dropdown">
+          <option>Yes </option>
+          <option>No </option>
+          <option>Not yet, but I want to </option>
+          <option>No, and I will not </option>
+        </select>
+        </fieldset>
+        <fieldset> 
+        <label> How often do you review your investments? </label>
+          <label> <input type="radio" name="radio" value="Each day" class="inline"> Each day </label>
+          <label> <input type="radio" name="radio" value="Once per week" class="inline"> Once per week </label>
+          <label> <input type="radio" name="radio" value="Two times per week" class="inline"> Two times per week </label>
+          <label> <input type="radio" name="radio" value="Once per month" class="inline"> Once per month </label>
+          <label> <input type="radio" name="radio" value="Not often" class="inline"> Not often </label>
+        </fieldset>
+<!-- Aquí empiezan los checkbox -->
+        <fieldset>
+          <label> What cryptos have you invested in? </label>
+          <label> <input type="checkbox" value="BTC" class="inline"/>BTC </label>
+          <label> <input type="checkbox" value="ETH" class="inline"/>ETH </label>
+          <label> <input type="checkbox" value="ADA" class="inline"/>ADA </label>
+          <label> <input type="checkbox" value="XRP" class="inline"/>XRP</label>
+          <label> <input type="checkbox" value="BNB" class="inline"/>BNB</label>
+          <label> <input type="checkbox" value="SOL" class="inline"/>SOL </label>
+          <label> <input type="checkbox" value="DOGE" class="inline"/>DOGE </label>
+          <label> <input type="checkbox" value="SHIB" class="inline"/>SHIB </label>
+          <label> <input type="checkbox" value="NFT ART" class="inline"/>NFT ART  </label>
+          <label> <input type="checkbox" value="NFT GAMES" class="inline"/>NFT GAMES </label>
+        </fieldset>
+        <fieldset> <label> What do you think about the future of Cryptos? </label>
+          <textarea cols="50" rows="5" placeholder="After the great fall suffered due to market recession, I think..."></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit" />
+  </body>
+  </html>
